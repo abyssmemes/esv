@@ -38,7 +38,7 @@ Move the binary to a directory in your $PATH:
 ```bash
 sudo mv esv /usr/local/bin
 ```
-###Configuration
+## Configuration
 
 Before using the ESV CLI tool, you need to configure it with your AWS and Vault credentials. Run the following command and provide the requested information:
 
@@ -48,9 +48,9 @@ esv configure
 
 This will create a configuration file in ~/.esv/config.yml with your credentials.
 
-###Usage
+## Usage
 
-#Create an EC2 instance
+## Create an EC2 instance
 To create an AWS EC2 instance, use the create command:
 
 ```bash
@@ -59,7 +59,7 @@ esv create
 
 This will create an EC2 instance with the image ID and key pair name specified in the configuration.
 
-#Connect to an EC2 instance
+## Connect to an EC2 instance
 To connect to an EC2 instance using Vault's SSH engine, use the connect command followed by the instance ID:
 
 ```bash
